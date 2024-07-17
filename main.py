@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox
 import customtkinter as ctk
-import ctypes
 
 try:
+    import ctypes   
     from ctypes import windll, byref, sizeof, c_int
 except Exception:
     print("Cannot Import ctypes")
